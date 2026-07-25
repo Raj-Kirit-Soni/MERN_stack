@@ -1,0 +1,45 @@
+*{
+    font-family:'Courier New';
+}
+h1{
+    color: brown;
+}
+
+#signup{
+    background-color: brown;
+    color: white;
+}
+.upvote{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+nav ul li a{
+    text-decoration : none;
+    font-weight: 600;
+    font-family: 'Courier New';
+}
+p + h3{
+    color: rgb(116, 21, 21)
+}
+.upvote + button{
+    background-color: aqua;
+ border-radius: 8px;
+}
+li[id="name"]{
+    font-size: large;
+    color: rgb(12, 98, 25);
+}
+.upvote:hover{
+    background-color: rgb(185, 15, 71);
+
+}
+.upvote:active{
+    background-color: chartreuse;
+}
+li:nth-child(2n){
+    background-color: aqua;
+}
+#select::selection{
+    background-color: yellow;
+
+}

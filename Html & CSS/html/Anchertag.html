@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+</head>
+<body>
+<div>
+    <!-- ancher tag
+     -->
+     <h1><b>Ancher tag used</b></h1>
+     <a href="https:www.google.com">Google link </a> <br>
+     <a href="http:www.facebook.com">Facebook</a></body>
+</div>
+     <hr>
+<div>
+     <!-- image  -->
+      <img src="neha_jew.jpg" alt="random img" height="300px" width="250px">
+</div>
+     <br>
+<div>
+     <p> Lorem <b>ipsum dolor</b> sit amet consectetur adipisicing elit. <br>
+         Deleniti eligendi esse eius hic minus tenetur similique quod<br>
+        <i>aspernatur </i>libero eos, quae dolore quisquam ullam rerum cupiditate<br>
+        <u> corporis</u> odio nisi voluptatem.
+        voluptates laboriosam odio beatae nesciunt autem nobis eligendi <br>
+        facilis? Amet nihil perferendis quo distinctio in magni natus non <br>
+         nostrum quas, maxime ea.</p>
+</div>
+<div>
+
+        <!-- Assigment question  -->
+
+        <!-- Qs1. Use the correct HTML tag to add a paragraph with the text "Hello World!" -->
+    <p> this is the pragraph</p>
+
+        <!-- Qs2. Mark up the text with appropriate tags:
+        "Delta” is the most important heading.
+        "Full Stack Web Development" is the next most important heading.
+        "MERN Stack" is the third most important heading.
+        The last sentence is just a paragraph.
+        Start with the most important heading (the largest) and end with the least
+        important heading (the smallest).
+        __ Delta __
+        __ Full Stack Web Development __ -->
+        <h1> Delta</h1>
+        <h2>Full stack</h2>
+        <h3>Mern Stack</h3>
+        <p> Journey being the today</p>
+
+    <!-- Qs3.Create a clickable link that redirects to the url : https://www.apnacollege.in/ -->
+        <a href=" https://www.apnacollege.in/" > Apna Collage</a>
+        <!-- Qs4. You are given the rank list of few students, create an ordered HTML list to display
+        the list given below :
+        1. Deepak
+        2. Epsita
+        3. Lakshita
+        4. Tanmay
+        5. Agrim -->
+        <h3>Rank list</h3>
+        <ol type="1">
+            <li>Deepak</li>
+            <li>Epsita</li>
+            <li>Lakshita</li>
+            <li> Tanmay</li>
+            <li>Agrim &napprox;</li>
+        </ol>
+
+        <!-- Qs5. Reading about these topics on mdn:
+            - Hr Tag in HTML
+            - HTML Entities -->
+</div>
+        <hr>
+<div>
+    <!-- Block level tag-->
+            <H1>My name is raj</H1>
+            <p>i love india </p>
+    <!-- Inline level tag-->
+            <a href=""> inline link</a>
+            <img src="Rajkirit.jpg" alt="raj" height="250px"width="auto">
+            <img src="neha_jew.jpg" alt="neha" height="250" width="auto">
+    <hr>
+        <div> <a href="www.google.com">Google</a> <!-- Due to div google and youtube both in a block level -->
+        <a href="www.youtube.com">Youtube</a>
+        </div>
+        <a href="www.facebook.com"> facebook</a>
+            <br>
+    <!-- inline span tag-->
+            <span> <a href="www.google.com">Google</a> <!-- Due to div google and youtube both in a block level -->
+        <a href="www.youtube.com">Youtube</a> <!-- WE CAN SEE THAT THE google or youtube both in inline not occupie the whole block level space-->
+            </span>
+        <a href="www.facebook.com"> facebook</a>
+</div>
+<div>
+    <!-- sub-script or sup-erscript-->
+            <h3>H<sub>2</sub>O</h3>
+            <h3>a<sup>2</sup></h3>
+</div>
+<div>
+    <!-- Semantic tag -> meaning full tags -->
+        <header> <!-- IT is used for the heading-->
+        This is contain the heading for the webpage 
+        <nav><!-- it inside the header tag-->
+        this is containing the navigation part of the page 
+        <a href="">about-us</a>
+        <a href="">contact-us</a>
+        </nav>
+        </header>
+        <main>
+        this iscontain  the main part of the web page 
+        </main>
+        <footer> Made with &hearts;</footer>
+</div>
+<div>
+        <!-- video tag -->
+        <video controls autoplay  poster="neha_jew.jpg" width =300px height="auto">
+        <source src="video.mp4" type="video/mp4"width =300px height="auto"/>
+        <source src="video.webm" type="video/webm" width =300px height="auto"/>
+
+    </video>
+    <!--Qs2. Is video tag a semantic tag? = yes --> <!-- Qs5. Print the symbols for copyright & trademark on your webpage-->    
+    <h3> Today is the 4<sup>th</sup> october 4<sup>2</sup> = always 16 &copy; &reg;</h3>
+</div>
+<div>
+    <!-- Study about the table of the html and how to use them-->
+     <table border="black"> <!-- It is used for create a table  -->
+        <caption>food menu</caption> <!-- It is used for the caption fo the table -->
+
+        <!-- table header-->
+        <thead>
+        <tr><!-- it specify the individual row of thw table -->
+            <th>Food</th><!-- th tag it is used for the show the header of the table -->
+            <th>Price</th>
+        </tr>
+
+        <!-- table body -->
+        <tbody>
+        <tr>
+            <td>momos</td><!-- it is how the table row date as pr column consider the  table cell  -->
+            <td>100 R.S</td>
+        </tr>
+        <tr>
+            <td>burgger</td>
+            <td>70 R.S</td>
+        </tr>
+        <tr>
+            <td>Pizza</td>
+            <td>400 R.S</td>
+           
+        </tr>
+        </tbody>
+    
+     </table>
+     <hr>
+
+
+
+     <!-- Row span  help to merge two or more rows-->
+
+     <table border="black">
+        <caption> Food menu</caption>
+        <tr>
+            <th rowspan="2">Item</th> <!-- row span se merge krtay time vo niche ke row ke sare colum ko shift kr dega-->
+            <th colspan="2">price</th> <!-- col span se merge krtay time vo agye  ke column ko  shift kr dega-->
+            
+        </tr>
+        <tr>
+            
+            <th>INR</th>
+            <th>USD</th>
+        </tr>
+        <tbody>
+        <tr>
+            <td>momos</td><!-- it is how the table row date as pr column consider the  table cell  -->
+            <td>100 R.S</td>
+             <td>1.2</td>
+        </tr>
+        <tr>
+            <td>burgger</td>
+            <td>70 R.S</td>
+            <td> 0.9</td>
+        </tr>
+        <tr>
+            <td>Pizza</td>
+            <td>400 R.S</td>
+            <td>5</td>
+        </tr>
+        </tbody>
+     </table>
+     <!-- col span  help to merge two or more columns-->
+</div>
+
+<hr>
+<div>
+    <form action="/send-server"><!-- form tag help to make the form of the pages  action attribute help to send the data on link or other things like js files -->
+        <input type="date"><br>
+        <label >
+            User Name: <input type="text" placeholder="Enter the user name"></input>
+        </label>
+
+        <!-- anther way to use label is using (For With Id) -->
+         <label for="Username"> User Name :-</label>
+         <input type="text" id="Username" placeholder="Enter the User name ">
+        <input type="password" placeholder="Enter the password"><br>
+        <input type="email" placeholder="Enter the email"><br>
+        <input type="number" placeholder="Enter the number"><br>
+
+        <!-- botton using input tag-->
+         <input type="submit" value="click Me"><br>
+
+         <!-- Botton-->
+        <button type="submit"> Click Me</button>
+        <button type="reset"> Reset</button>
+        <button type="button"> Button</button>
+        <hr>
+
+        <!-- Name Attribute is used for the send the data which is acessable in Backend side name="Querry" and we enter the in text abcd so its show in UrL querry=abcd -->
+        <label for="username"> Username :-</label> <!--http://127.0.0.1:3000/send-server?querry=abcd-->
+        <input type="text" id="username" name="querry" placeholder="Enter the username"><br>
+        
+       
+    </form>
+    <hr><hr><hr>
+     <!-- Redirect on youtube page-->
+        <form action="https://www.youtube.com/results">
+        <label for="search"> Search on youtube :-</label>
+        <input type="text" id="search" name="search_query" placeholder="Search here"><br>
+        <input type="submit" value="Search">
+
+
+        </form>
+</div>
+              
+</html>

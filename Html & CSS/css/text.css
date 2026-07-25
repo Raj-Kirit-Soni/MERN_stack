@@ -1,0 +1,16 @@
+h1{
+    text-align : center;
+}
+#paraa{
+    text-align: justify;
+    font-weight: 800;
+    line-height: 2.5;
+    letter-spacing: 1px;
+}
+h2{
+    text-decoration-line:  underline;
+    text-decoration-color: brown;
+}
+a{
+    text-decoration: none;
+}

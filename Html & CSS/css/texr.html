@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSS Text Properties — Practice Page</title>
+  <link rel="stylesheet" href="text.css">
+</head>
+<body>
+    <a href=".com">link of the page</a>
+  <main>
+    <h1>CSS Text Properties — Practice Page</h1>
+    <p id="paraa">Use this page to experiment with common CSS text properties. Edit the classes in the &lt;style&gt; block or add your own rules to see live changes.</p>
+
+    <section>
+      <h2>Font size, weight &amp; style</h2>
+      <div class="sample">
+        <div class="font-size-xxl font-weight-700">This is 36px and bold (class: <code>font-size-xxl font-weight-700</code>)</div>
+        <div class="font-size-lg font-weight-300 italic">This is 20px, light and italic (class: <code>font-size-lg font-weight-300 italic</code>)</div>
+        <div class="small-caps">Small caps example (font-variant: small-caps)</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Letter-spacing &amp; Word-spacing</h2>
+      <div class="sample">
+        <p class="letter-spacing-wide">Letter spacing wide — increase space between letters.</p>
+        <p class="letter-spacing-tight">Letter spacing tight — reduce space between letters.</p>
+        <p class="word-spacing-wide">Word spacing wide — increase space between words.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Text transform &amp; text decoration</h2>
+      <div class="sample">
+        <p class="text-transform-upper">uppercase transform</p>
+        <p class="text-transform-cap">capitalize each word</p>
+        <p class="text-decoration-line">Underlined with a wavy style</p>
+        <p class="text-decoration-through">Struck-through text</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Text shadow &amp; color</h2>
+      <div class="sample">
+        <p class="text-shadow-example big-quote">This quote has a subtle text-shadow and is larger.</p>
+        <p class="color-accent">Accent colored text (class: <code>color-accent</code>).</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Line-height &amp; alignment</h2>
+      <div class="sample">
+        <p class="line-height-1_8">This paragraph uses line-height: 1.8 — comfortable for long reads. Try changing it to 1 or 2 and observe.</p>
+        <p class="line-height-1_2">Tighter line-height: 1.2</p>
+        <p class="align-center">This line is centered.</p>
+        <p class="align-right">This line is right aligned.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Overflow, whitespace &amp; hyphens</h2>
+      <div class="sample">
+        <p><strong>Ellipsis example:</strong> <span class="overflow-ellipsis">This very long sentence will be truncated with an ellipsis if it doesn't fit in the available width.</span></p>
+        <p><strong>Preserve whitespace:</strong> <span class="white-space-pre">Line 1\n    Indented line 2 with preserved spacing.</span></p>
+        <p><strong>Hyphens (auto):</strong> <span class="hyphens-auto">Antidisestablishmentarianism is a long word used to test hyphenation behavior in narrow containers.</span></p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Direction &amp; language</h2>
+      <div class="sample">
+        <p class="direction-rtl">This paragraph is set to <code>direction: rtl</code> (right-to-left). Useful when practising languages like Arabic or Hebrew.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Quick exercises (try changing these)</h2>
+      <ol>
+        <li>Change <code>.font-size-xxl</code> to <code>font-size:48px</code> and refresh to see the effect.</li>
+        <li>Make the underline thicker by adding <code>text-decoration-thickness: 3px</code> to <code>.text-decoration-line</code>.</li>
+        <li>Try <code>text-transform: lowercase</code> on the <code>h1</code>.</li>
+        <li>Set a custom <code>@font-face</code> and use it on <code>.big-quote</code>.</li>
+      </ol>
+    </section>
+
+    <footer style="margin-top:18px;font-size:12px;color:#666">
+      Tip: open this file in your editor and the browser. Edit the &lt;style&gt; rules live to practice. Want more examples (variable fonts, webfont loading, advanced text-decoration)? Tell me which ones and I'll add them.
+    </footer>
+  </main>
+</body>
+</html>
